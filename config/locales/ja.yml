@@ -1,0 +1,50 @@
+ja: 
+  # Controllers
+  resource_controller:
+    saved: "{{humanized_model_name}}をセーブできました。"
+    validation_errors: "DE Validation errors occurred while processing this form. Please take a moment to review the form and correct any input errors before continuing."
+    removed: "{{humanized_model_name}} has been deleted."  
+    update_conflict: "{{humanized_model_name}} has been modified since it was last loaded. Changes cannot be saved without potentially losing data." 
+  pages_controller:
+    saved: "ページをセーブできました。"  
+    removed_many: "The pages were successfully removed from the site."   
+    removed_one: "The page was successfully removed from the site."  
+  preferences_contoller:
+    updated: 'Your preferences have been updated.' 
+    error_updating: 'There was an error updating your preferences.'      
+  users_controller:
+    cannot_delete_self: '自分を削除できません。'    
+  welcome_controller:
+    logged_out: 'ログアウトしました。'  
+    invalid_user: 'Invalid username or password.'   
+    
+    
+    
+  date:
+    formats:
+      default: "%Y年%m月%d日"
+      short: "%e %b"
+      long: "%B %e, %Y"
+      only_day: "%e"
+
+    day_names: [日曜, 月曜, 火曜, 水曜, 木曜, 金曜, 土曜]
+    abbr_day_names: [日, 月, 火, 水, 木, 金, 土]
+    month_names: [~, 一月, 二月, 三月, 四月, 五月, 六月, 七月, 八月, 九月, 十月, 十一月, 十二月]   
+    abbr_month_names: [~, 一月, 二月, 三月, 四月, 五月, 六月, 七月, 八月, 九月, 十月, 十一月, 十二月]
+    order: [ :year, :month, :day ]
+  
+  time:
+    formats:
+      default: "%a %b %d %H:%M:%S %Z %Y"   
+      timestamp: "%I:%M <small>%p</small> on %B %d, %Y" 
+      time: "%H:%M"
+      short: "%d %b %H:%M"
+      long: "%B %d, %Y %H:%M"
+      only_second: "%S"
+      
+      datetime:
+        formats:
+          default: "%Y-%m-%dT%H:%M:%S%Z"
+          
+      am: 'am'
+      pm: 'pm'
