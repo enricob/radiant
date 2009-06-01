@@ -1,17 +1,17 @@
 ja: 
   # Controllers
   resource_controller:
-    saved: "{{humanized_model_name}}をセーブできました。"
+    saved: "{{humanized_model_name}}をセーブしました。"
     validation_errors: "DE Validation errors occurred while processing this form. Please take a moment to review the form and correct any input errors before continuing."
-    removed: "{{humanized_model_name}} has been deleted."  
-    update_conflict: "{{humanized_model_name}} has been modified since it was last loaded. Changes cannot be saved without potentially losing data." 
+    removed: "{{humanized_model_name}}を削除しました。."  
+    update_conflict: "ロードした時と比べて、{{humanized_model_name}}に変更があります。セーブしたら、ほかに変更を失う可能性があります。" 
   pages_controller:
-    saved: "ページをセーブできました。"  
-    removed_many: "The pages were successfully removed from the site."   
-    removed_one: "The page was successfully removed from the site."  
+    saved: "ページをセーブしました。"  
+    removed_many: "ページはサイトから削除しました。"   
+    removed_one: "ページはサイトから削除しました。"  
   preferences_contoller:
-    updated: 'Your preferences have been updated.' 
-    error_updating: 'There was an error updating your preferences.'      
+    updated: '設定変更に終了しました。' 
+    error_updating: '設定変更にエーラーが発生しました。'      
   users_controller:
     cannot_delete_self: '自分を削除できません。'    
   welcome_controller:
