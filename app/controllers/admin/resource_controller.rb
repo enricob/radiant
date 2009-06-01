@@ -155,7 +155,7 @@ class Admin::ResourceController < ApplicationController
     end
 
     def announce_removed
-      flash[:notice] = t("resource_controller.removed ", :humanized_model_name => humanized_model_name)    
+      flash[:notice] = t("resource_controller.removed", :humanized_model_name => humanized_model_name)    
     end
 
     def announce_update_conflict
@@ -163,7 +163,7 @@ class Admin::ResourceController < ApplicationController
     end
 
     def clear_model_cache
-      cache.clear
+      Radiant::Cache.clear if defined?(Radiant::Cache)
     end
 
     def format_symbol
