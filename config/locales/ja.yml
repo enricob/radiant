@@ -16,11 +16,11 @@ ja:
     cannot_delete_self: '自分を削除できません。'    
   welcome_controller:
     logged_out: 'ログアウトしました。'  
-    invalid_user: 'Invalid username or password.'   
+    invalid_user: 'ログインもしくはパスワードが異なりますん。'   
     
   tabs:
     pages: 'ページ'  
-    snippets: 'スニペット'
+    snippets: 'スニペッツ'
     layouts: 'レイアウト'
   
   buttons:
@@ -63,8 +63,8 @@ ja:
       or: 'それとも'
       cancel: '取り消す'
     snippets:
-      snippet: 'スニペット'
-      snippets: 'スニペット'
+      snippet: 'スニペッツ'
+      snippets: 'スニペッツ'
     users:
       users: 'ユーザー'
       name: '名前'
