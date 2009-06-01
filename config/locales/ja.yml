@@ -18,7 +18,70 @@ ja:
     logged_out: 'ログアウトしました。'  
     invalid_user: 'Invalid username or password.'   
     
-    
+  tabs:
+    pages: 'ページ'  
+    snippets: 'スニペット'
+    layouts: 'レイアウト'
+  
+  buttons:
+    save_changes: 'セーブ'
+    save_and_continue: 'セーブして続く'
+  
+  select:
+    none: 'なし'
+    normal: '普通'
+  
+  views:
+    extensions:
+      extension: 'エクステンション'
+      extensions: 'エクステンション'
+      version: 'バージョン'
+      website: 'ウェブサイト'
+    layout:
+      users: 'ユーザー'
+      extensions: 'エクステンション'
+      log_out: 'ログアウト'
+      made_with_ruby: 'Rubyで製作'
+      version: 'バージョン'
+    layouts:
+      layout: 'レイアウト'
+      layouts: 'レイアウト'
+    pages:
+      pages: 'ページ'
+      page_title: 'タイトル'
+      page_type: 'タイプ'
+      edit_page: 'ページ編集'
+      status: 'ステータス'
+    page_parts:
+      available_tags: '使用可能タッグ'
+      reference: 'ヘルプ'
+    shared:
+      less: 'less'
+      modify: '変更'
+      more: '拡大'
+      filter: 'フィルター'
+      or: 'それとも'
+      cancel: '取り消す'
+    snippets:
+      snippet: 'スニペット'
+      snippets: 'スニペット'
+    users:
+      users: 'ユーザー'
+      name: '名前'
+      login: 'ログイン'
+      username: 'ログイン'
+      password: 'パスワード'
+      roles: '役目'
+    welcome:
+      login: 'ログイン'
+      login_btn: 'ログイン'
+      remember_me: '次回から自動的にログイン'
+
+  status:
+    draft: '下書き'
+    reviewed: '編集中'
+    published: '出版'
+    hidden: '隠し'
     
   date:
     formats:
@@ -36,7 +99,7 @@ ja:
   time:
     formats:
       default: "%a %b %d %H:%M:%S %Z %Y"   
-      timestamp: "%I:%M <small>%p</small> on %B %d, %Y" 
+      timestamp: "%H:%M <small>%p</small>、 %Y年%m月%d日" 
       time: "%H:%M"
       short: "%d %b %H:%M"
       long: "%B %d, %Y %H:%M"
@@ -46,5 +109,5 @@ ja:
         formats:
           default: "%Y-%m-%dT%H:%M:%S%Z"
           
-      am: 'am'
-      pm: 'pm'
+    am: '午前'
+    pm: '午後'
