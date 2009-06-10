@@ -76,7 +76,7 @@ ja:
       login: 'ログイン'
       login_btn: 'ログイン'
       remember_me: '次回から自動的にログイン'
-
+ 
   status:
     draft: '下書き'
     reviewed: '編集中'
@@ -89,7 +89,7 @@ ja:
       short: "%e %b"
       long: "%B %e, %Y"
       only_day: "%e"
-
+ 
     day_names: [日曜, 月曜, 火曜, 水曜, 木曜, 金曜, 土曜]
     abbr_day_names: [日, 月, 火, 水, 木, 金, 土]
     month_names: [~, 一月, 二月, 三月, 四月, 五月, 六月, 七月, 八月, 九月, 十月, 十一月, 十二月]   
