@@ -27,6 +27,15 @@ class User < ActiveRecord::Base
   validates_numericality_of :id, :only_integer => true, :allow_nil => true, :message => I18n.t('models.must_be_number')
     
   attr_writer :confirm_password
+  class << self
+    def protected_attributes
+      @protected_attributes ||= [:password, :password_confirmation, :email]
+    end
+    
+    def protected_attributes=(array)
+      @protected_attributes = array.map{|att| att.to_sym }
+    end
+  end
   
   def sha1(phrase)
     Digest::SHA1.hexdigest("--#{salt}--#{phrase}--")
